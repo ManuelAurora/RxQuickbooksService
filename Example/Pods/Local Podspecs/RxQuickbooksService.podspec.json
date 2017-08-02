@@ -1,0 +1,49 @@
+{
+  "name": "RxQuickbooksService",
+  "version": "0.1.0",
+  "summary": "Reactive framework for handling Quickbooks calls",
+  "description": "Reactive framework for handling Quickbooks calls",
+  "homepage": "https://github.com/ManuelAurora/RxQuickbooksService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Manuel Aurora": "manuel4urora@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ManuelAurora/RxQuickbooksService.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.2"
+  },
+  "source_files": "RxQuickbooksService/Classes/*.{swift}",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "SwiftyJSON": [
+
+    ],
+    "OAuthSwift": [
+
+    ],
+    "Alamofire": [
+
+    ],
+    "RxSwift": [
+
+    ],
+    "RxAlamofire": [
+
+    ],
+    "Action": [
+
+    ],
+    "RxCocoa": [
+
+    ],
+    "OAuthSwiftAlamofire": [
+
+    ]
+  }
+}

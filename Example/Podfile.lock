@@ -1,0 +1,57 @@
+PODS:
+  - Action (3.1.1):
+    - RxCocoa (~> 3.4)
+    - RxSwift (~> 3.4)
+  - Alamofire (4.4.0)
+  - OAuthSwift (1.1.2)
+  - OAuthSwiftAlamofire (0.1.0):
+    - Alamofire
+    - OAuthSwift
+  - RxAlamofire (3.0.2):
+    - RxAlamofire/Core (= 3.0.2)
+  - RxAlamofire/Core (3.0.2):
+    - Alamofire (~> 4.0)
+    - RxSwift (~> 3.0)
+  - RxCocoa (3.5.0):
+    - RxSwift (~> 3.4)
+  - RxQuickbooksService (0.1.0):
+    - Action
+    - Alamofire
+    - OAuthSwift
+    - OAuthSwiftAlamofire
+    - RxAlamofire
+    - RxCocoa
+    - RxSwift
+    - SwiftyJSON
+  - RxSwift (3.5.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Action
+  - Alamofire
+  - OAuthSwift
+  - OAuthSwiftAlamofire
+  - RxAlamofire
+  - RxCocoa
+  - RxQuickbooksService (from `../`)
+  - RxSwift
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  RxQuickbooksService:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Action: e224bd151fe2e057f4189b4a9df0dc5d21264a9e
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  OAuthSwift: 5aa5659984d3ca3206ba636a9e7a9c6626b2e8bd
+  OAuthSwiftAlamofire: 20bb998ac506f82c3bab0625fbc98a9c6fca783f
+  RxAlamofire: bc53604b29fd2d220cfaa490c736cc4500819f34
+  RxCocoa: a0a09f45d0e5b48ecb6a4a7b4b4c89c88d3f633f
+  RxQuickbooksService: 8c2150576a5f6cc89b0c6278c1ddd28a82cf6fea
+  RxSwift: 18ee9d78b45edb3b0b7e79916b47a116e6dbc842
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 054f5194f656dbc34172d98af3e0e9c7edfe31a1
+
+COCOAPODS: 1.2.1

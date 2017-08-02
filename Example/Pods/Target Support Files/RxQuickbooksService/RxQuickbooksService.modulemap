@@ -1,0 +1,6 @@
+framework module RxQuickbooksService {
+  umbrella header "RxQuickbooksService-umbrella.h"
+
+  export *
+  module * { export * }
+}
