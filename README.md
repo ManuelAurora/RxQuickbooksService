@@ -22,7 +22,7 @@ pod "RxQuickbooksService"
 
 ## Author
 
-naruto06@mail.ru, amp.smichrissoft@gmail.com
+manuel4urora@gmail.com
 
 ## License
 
