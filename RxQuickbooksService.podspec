@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RxQuickbooksService'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'Reactive framework for handling Quickbooks calls'
   s.description      = <<-DESC
 			Reactive framework for handling Quickbooks calls
