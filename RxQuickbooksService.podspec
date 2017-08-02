@@ -11,8 +11,9 @@ Pod::Spec.new do |s|
   s.author           = { 'Manuel Aurora' => 'manuel4urora@gmail.com' }
   s.source           = { :git => 'https://github.com/ManuelAurora/RxQuickbooksService.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.3’
-  s.source_files = 'RxQuickbooksService/Classes/**/*'  
+  s.ios.deployment_target = '10.3'
+  s.source_files = 'RxQuickbooksService/Classes/**/*'
+  s.source_files = 'RxQuickbooksService/Classes/*.{swift}'
   s.frameworks = 'UIKit'	
   s.dependency   'SwiftyJSON'
     s.dependency 'OAuthSwift'
@@ -22,5 +23,5 @@ Pod::Spec.new do |s|
     s.dependency 'Action'
     s.dependency 'RxCocoa'
     s.dependency 'OAuthSwiftAlamofire'
-    s.source_files = 'RxQuickbooksService/Classes/*.{swift}'  
+     
 end
