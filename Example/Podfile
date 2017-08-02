@@ -1,0 +1,6 @@
+use_frameworks!
+target 'RxQuickbooksService_Tests' do
+  pod 'RxQuickbooksService', :path => '../'
+  
+  
+end
